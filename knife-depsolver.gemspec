@@ -13,4 +13,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/jeremiahsnapp/knife-depsolver"
   s.require_path = 'lib'
   s.files = %w(LICENSE README.md) + Dir.glob("lib/**/*")
+
+  s.add_dependency 'chef', '~> 12.11'
 end
